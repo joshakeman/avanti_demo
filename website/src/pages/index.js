@@ -4,17 +4,24 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import BackgroundSection from '../pages/home'
+import '../styles/home.css'
 
 const IndexPage = () => (
+
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="background">
+      <div className="jumbo" id="test">
+        <p>
+        Step into the new <br></br>
+        frontier of banking
+        </p>
+      </div>
+      <div className="relative-wrapper">
+        <BackgroundSection />
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
