@@ -3,15 +3,14 @@ import Layout from '../components/layout'
 import Post from '../components/Post'
 import { graphql } from 'gatsby'
 import PaginationLinks from '../components/PaginationLinks'
-import BlogHeader from '../components/BlogHeader'
+import BlogLayout from '../components/blogLayout'
 
 const postList = (props) => {
     const posts = props.data.allMarkdownRemark.edges
     const { currentPage, numberOfPages } = props.pageContext
 
     return(
-        <>
-        <BlogHeader />
+        <BlogLayout pageTitle={`Page: ${currentPage}`}>
         {posts.map(({node}) => (
             <Post key={node.id}
             slug={node.fields.slug}
@@ -24,11 +23,7 @@ const postList = (props) => {
             />
         ))}
         <PaginationLinks currentPage={currentPage} numberOfPages={numberOfPages}/>
-        <footer className="footer">
-            <p>Contact Us: info@avantibank.com</p>
-            <p>© {new Date().getFullYear()} Avanti Bank & Trust</p> 
-        </footer>
-        </>
+        </BlogLayout>
     )
 }
 

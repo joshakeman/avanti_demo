@@ -35,7 +35,7 @@ const Sidebar = () => (
                                 </Link>
                                 <CardBody>
                                     <CardTitle>
-                                        <Link to={node.frontmatter.path}>
+                                        <Link to={node.fields.slug}>
                                             {node.frontmatter.title}
                                         </Link>
                                     </CardTitle>

@@ -629,6 +629,13 @@ pre tt:after {
   align-items: center;
 }
 
+.blog-background {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
 .relative-wrapper {
   position: absolute;
   width: 100%;

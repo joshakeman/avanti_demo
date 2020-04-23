@@ -47,7 +47,6 @@ exports.createPages = ({ actions, graphql }) => {
             }
         }
     `).then(res => {
-        console.log("CONSOLE DOT LOGGING =========>", res)
         if (res.errors) return Promise.reject(res.errors)
 
         const posts = res.data.allMarkdownRemark.edges
@@ -111,7 +110,7 @@ exports.createPages = ({ actions, graphql }) => {
             if(isFirstPage) return
 
             createPage({
-                path: `/page/${currentPage}`,
+                path: `/blog/page/${currentPage}`,
                 component: templates.postList,
                 context: {
                     limit: postsPerPage,

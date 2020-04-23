@@ -25,20 +25,20 @@
 .blog-title {
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
-    color:white;
+    color:black;
     margin-bottom: 0;
 }
 
 .blog-title > a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .blog-title-subhead {
     font-family: 'Poppins', sans-serif;
     font-size: 0.85em;
     margin: 0;
-    color: white;
+    color: black;
 }
 
 .navbar {
@@ -59,7 +59,7 @@
     justify-content: space-between;
     width: 100%;
     z-index: 1;
-    background-color: black;
+    background-color: white;
 }
 .nav-menu a {
     margin-right: 16px;
@@ -74,7 +74,7 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1.15em;
-    color: white;
+    color: black;
 }
 
 .nav-menu a:hover{
@@ -89,4 +89,12 @@
 
 .link:hover {
     color: black;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-sub-header {
 }
