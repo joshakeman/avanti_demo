@@ -635,3 +635,17 @@ pre tt:after {
   bottom: 0;
   z-index: -10;
 }
+
+.footer {
+  padding: 20px 10px;
+  /* margin-top: 20px; */
+  width: 100%;
+  background-color: black;
+}
+
+.footer p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  color: white;
+}

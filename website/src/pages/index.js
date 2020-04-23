@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import BackgroundSection from '../pages/home'
+import BackgroundSection from '../components/BackgroundSection'
 import '../styles/home.css'
 import Img from "gatsby-image"
 import StyledLogo from '../components/logo'

@@ -15,9 +15,28 @@
 .title-subhead {
     font-family: 'Poppins', sans-serif;
     font-size: 0.85em;
+    margin: 0;
 }
 
 .navbar {
     position: fixed;
+    top: 0;
     padding: 1.45rem 1.0875rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-menu a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.15em;
+}
+
+.nav-menu a:hover{
+    cursor: pointer !important;
 }

@@ -28,11 +28,10 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
-        {/* <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer> */}
+        <footer className="footer">
+          <p>Contact Us: info@avantibank.com</p>
+          <p>© {new Date().getFullYear()} Avanti Bank & Trust</p> 
+        </footer>
       </div>
     </>
   )

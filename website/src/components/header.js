@@ -17,7 +17,15 @@ const Header = ({ siteTitle }) => (
         </p>
       </div>
       <nav className="nav-menu">
-
+        <Link to="/about" className="menu-item">
+          About
+        </Link>
+        <Link to="/our-team">
+          Our Team
+        </Link>
+        <Link to="/blog">
+          Blog
+        </Link>
       </nav>
     </div>
   </header>
