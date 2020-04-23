@@ -2,12 +2,14 @@ import React from 'react'
 import Layout from "../components/layout"
 import BackgroundSection from '../components/BackgroundSection'
 import '../styles/our-team.css'
+import SEO from "../components/seo"
 import email from '../images/email2.png'
 import twitter from '../images/twitter2.png'
 
 export default function contact() {
     return (
         <Layout>
+        <SEO title="Contact" keywords={['Avanti Financial Group', 'Contact Us']} />
             <div className="background">
                 <div className="jumbo adjust-up fade-in">
                 {/* <!-- Meet Our Team Section --> */}

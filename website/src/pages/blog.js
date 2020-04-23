@@ -15,7 +15,7 @@ const IndexPage = () => {
 
 return (
     <BlogLayout >
-    <SEO title="Home" keywords={['akeman', 'developer', 'blog']} />
+    <SEO title="Blog" keywords={['Avanti Financial Group', 'Blog and News', 'blog']} />
     <StaticQuery query={indexQuery} render={data => {
       numberOfPages = Math.ceil(data.allMarkdownRemark.totalCount / postsPerPage)
       return(

@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from "../components/layout"
 import BackgroundSection from '../components/BackgroundSection'
 import '../styles/our-team.css'
+import SEO from "../components/seo"
 import chuck from '../images/chuck-thompson.jpg'
 import bryan from '../images/bryan-bishop.jpg'
 import britney from '../images/britney-reddy.jpg'
@@ -11,6 +12,7 @@ import caitlin from '../images/caitlin-long.jpg'
 export default function about() {
     return (
         <Layout>
+        <SEO title="Our Team" keywords={['Avanti Financial Group', 'Our Team']} />
             <div className="background">
                 <div className="jumbo adjust-up fade-in">
                 {/* <!-- Meet Our Team Section --> */}

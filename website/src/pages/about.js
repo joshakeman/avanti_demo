@@ -1,11 +1,13 @@
 import React from 'react'
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import BackgroundSection from '../components/BackgroundSection'
 import '../styles/about.css'
 
 export default function about() {
     return (
         <Layout>
+        <SEO title="About" keywords={['Avanti Financial Group', 'About Us']} />
             <div className="background">
                 <div className="jumbo adjust-up fade-in">
                     <h2>
