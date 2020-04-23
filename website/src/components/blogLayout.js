@@ -22,8 +22,11 @@ const BlogLayout = ({ children, pageTitle }) => {
     <>
     <BlogHeader />
     <div className="blog-background">
+      <div className="blog-header-bar">
+        <h1 className="blog-header no-margin">Avanti Blog & News</h1>
+      </div>
+      <div>
       <div className="container" id="content">
-      <h1 className="blog-header">Avanti Blog & News</h1>
       <h3 className="blog-sub-header">{pageTitle}</h3>
         <Row>
           <Col md="8">
@@ -33,6 +36,7 @@ const BlogLayout = ({ children, pageTitle }) => {
             <Sidebar />
           </Col>
         </Row>
+      </div>
       </div>
       <div className="relative-wrapper">
         <BackgroundSection />
