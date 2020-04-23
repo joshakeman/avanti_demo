@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
+import BlogLayout from "../components/blogLayout"
 import SEO from "../components/seo"
 import { Badge, Button } from 'reactstrap'
 import { slugify } from '../util/utilityFunctions'
@@ -7,7 +7,7 @@ import { slugify } from '../util/utilityFunctions'
 const TagsPage = ( { pageContext }) => {
     const { tags, tagPostCounts } = pageContext
     return(
-        <Layout pageTitle="All topics">
+        <BlogLayout pageTitle="All topics">
             <SEO title="Tags" />
             <ul>
                 {tags.map(tag => (
@@ -18,7 +18,7 @@ const TagsPage = ( { pageContext }) => {
                     </li>
                 ))}
             </ul>
-        </Layout>
+        </BlogLayout>
     )
 }
 

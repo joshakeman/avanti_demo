@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import BlogLayout from '../components/blogLayout'
 import SEO from '../components/seo'
 import { Card, CardBody, CardSubtitle, Badge, } from 'reactstrap'
 import Img from 'gatsby-image'
@@ -12,7 +12,7 @@ const SinglePost = ({ data, pageContext }) => {
     const baseUrl = 'http://localhost:8000/'
 
     return(
-        <Layout pageTitle={post.title}>
+        <BlogLayout pageTitle={post.title}>
             <SEO title={post.title}/>
 
                     <Card>
@@ -45,7 +45,7 @@ const SinglePost = ({ data, pageContext }) => {
 </a></li>
                         </ul>
                     </div>
-        </Layout>
+        </BlogLayout>
     )
 }
 

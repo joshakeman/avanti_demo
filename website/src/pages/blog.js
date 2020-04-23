@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 
-import Layout from "../components/layout"
+import BlogLayout from "../components/blogLayout"
 import SEO from "../components/seo"
 import PaginationLinks from '../components/PaginationLinks'
 import BlogHeader from '../components/BlogHeader'
@@ -13,9 +13,8 @@ const IndexPage = () => {
   const postsPerPage = 2
   let numberOfPages
 
-return(
-    <>
-    <BlogHeader />
+return (
+    <BlogLayout>
     <SEO title="Home" keywords={['akeman', 'developer', 'blog']} />
     <StaticQuery query={indexQuery} render={data => {
       numberOfPages = Math.ceil(data.allMarkdownRemark.totalCount / postsPerPage)
@@ -36,12 +35,8 @@ return(
         </div>
         )
       }} />
-        <footer className="footer">
-            <p>Contact Us: info@avantibank.com</p>
-            <p>© {new Date().getFullYear()} Avanti Bank & Trust</p> 
-        </footer>
-        </>
-)
+      </BlogLayout>
+    )
 }
 
 const indexQuery = graphql`

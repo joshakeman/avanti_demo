@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/layout'
+import BlogLayout from '../components/blogLayout'
 import Post from '../components/Post'
 import PaginationLinks from '../components/PaginationLinks'
 
@@ -14,7 +14,7 @@ const tagPosts = ({ data, pageContext }) => {
     } tagged with "${tag}"`
 
     return(
-        <Layout pageTitle={pageHeader}>
+        <BlogLayout pageTitle={pageHeader}>
             {data.allMarkdownRemark.edges.map(({node}) => (
                 <Post key={node.id}
                       slug={node.fields.slug}
@@ -26,7 +26,7 @@ const tagPosts = ({ data, pageContext }) => {
                       fluid={node.frontmatter.image.childImageSharp.fluid}
                       />
             ))}
-        </Layout>
+        </BlogLayout>
     )
 }
 

@@ -26,6 +26,9 @@ const Header = ({ siteTitle }) => (
         <Link to="/contact" className="menu-item">
           Contact
         </Link>
+        <Link to="/blog" className="menu-item">
+          Blog
+        </Link>
       </nav>
     </div>
   </header>
