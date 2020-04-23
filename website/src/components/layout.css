@@ -623,6 +623,10 @@ pre tt:after {
 
 .background {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
 }
 
 .relative-wrapper {

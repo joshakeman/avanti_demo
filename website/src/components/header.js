@@ -5,8 +5,8 @@ import '../styles/header.css'
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div style={{margin: `0 auto`,maxWidth: 'auto',padding: `1.45rem 1.0875rem`,}}>
-      <div>
+    <div className="navbar">
+      <div className="header-logo-wrapper">
         <h1 className="title">
           <Link to="/" >
             Avanti
@@ -15,7 +15,10 @@ const Header = ({ siteTitle }) => (
         <p className="title-subhead">
           The Digital Asset Bank
         </p>
-        </div>
+      </div>
+      <nav className="nav-menu">
+
+      </nav>
     </div>
   </header>
 )

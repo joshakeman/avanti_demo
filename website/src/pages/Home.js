@@ -9,7 +9,7 @@ const BackgroundSection = ({ className }) => (
   <StaticQuery
     query={graphql`
       query {
-        background: file(relativePath: { eq: "wyoming_mountain_2_cropped.jpg" }) {
+        background: file(relativePath: { eq: "wyoming_mountain_2_extra_cropped_white.jpg" }) {
           childImageSharp {
             fluid(quality: 90, maxWidth: 1920) {
               ...GatsbyImageSharpFluid_withWebp
@@ -33,6 +33,7 @@ const BackgroundSection = ({ className }) => (
 
         <Img
         fluid={imageData}
+        fadeIn={false}
         />
 
       )
