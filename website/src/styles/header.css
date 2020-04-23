@@ -18,6 +18,24 @@
     margin: 0;
     color: black;
 }
+.blog-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    color:white;
+    margin-bottom: 0;
+}
+
+.blog-title > a {
+    text-decoration: none;
+    color: white;
+}
+
+.blog-title-subhead {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.85em;
+    margin: 0;
+    color: white;
+}
 
 .navbar {
     position: fixed;
@@ -30,12 +48,29 @@
     z-index: 1;
 }
 
+.blog-navbar {
+    padding: 1.45rem 1.0875rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
 .nav-menu a {
     margin-right: 16px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 1.15em;
     color: black;
+}
+
+.blog-nav-menu a {
+    margin-right: 16px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.15em;
+    color: white;
 }
 
 .nav-menu a:hover{
