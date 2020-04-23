@@ -47,7 +47,7 @@ export default function about() {
                         <div class="person">
                             <img src={chuck}/>
                             <h2>Chuck Thompson</h2>
-                            <p>Co-founder, Chief Legal Officer</p>
+                            <p>Co-founder, CLO</p>
                         </div>
                     </div>
                 </div>

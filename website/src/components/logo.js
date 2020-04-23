@@ -30,7 +30,7 @@ const Logo = ({ className }) => (
 )
 
 const StyledLogo = styled(Logo)`
-  width: 30%;
+  width: 300px;
   margin: 0 auto;
   opacity: 0.8;
 `
