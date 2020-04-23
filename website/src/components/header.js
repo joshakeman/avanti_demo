@@ -20,10 +20,10 @@ const Header = ({ siteTitle }) => (
         <Link to="/about" className="menu-item">
           About
         </Link>
-        <Link to="/our-team">
+        <Link to="/our-team" className="menu-item">
           Our Team
         </Link>
-        <Link to="/blog">
+        <Link to="/blog" className="menu-item">
           Blog
         </Link>
       </nav>

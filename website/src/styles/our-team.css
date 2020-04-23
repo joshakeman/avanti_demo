@@ -1,0 +1,117 @@
+.meet-our-team {
+    background: #040404;
+    padding-top: 4%;
+    text-align: center;
+  }
+  @media (max-width: 1160px) {
+    .meet-our-team {
+      font-size: 32px;
+    }
+  }
+  @media (max-width: 665px) {
+    .meet-our-team {
+      margin-top: 6%;
+    }
+  }
+  .meet-our-team .meet-our-team-content h2 {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 1%;
+  }
+  @media (max-width: 1160px) {
+    .meet-our-team .meet-our-team-content h2 {
+      font-size: 32px;
+    }
+  }
+  .meet-our-team .meet-our-team-content p {
+    font-family: "Roboto", Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 2%;
+  }
+  @media (max-width: 1160px) {
+    .meet-our-team .meet-our-team-content p {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 665px) {
+    .meet-our-team .meet-our-team-content p {
+      margin-top: 6%;
+    }
+  }
+  .meet-our-team .meet-our-team-content:after {
+    background: #e44c65;
+    content: '';
+    display: inline-block;
+    height: 0.2em;
+    max-width: 20em;
+    width: 75%;
+  }
+  .meet-team-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2% 0;
+  }
+  .meet-team-pictures .person {
+    width: 32%;
+    padding: 1%;
+    margin: 40px 0;
+  }
+  @media (max-width: 1024px) {
+    .meet-team-pictures .person {
+      width: 48%;
+      padding: 1%;
+      margin: 40px 0;
+    }
+  }
+  @media (max-width: 665px) {
+    .meet-team-pictures .person {
+      width: 98%;
+      padding: 1%;
+      margin: 40px 0;
+    }
+  }
+  .meet-team-pictures .person img {
+    width: 225px;
+    border-radius: 50%;
+  }
+  .meet-team-pictures .person h2 {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 1%;
+  }
+  @media (max-width: 1160px) {
+    .meet-team-pictures .person h2 {
+      font-size: 28px;
+    }
+  }
+  .meet-team-pictures .person p {
+    font-family: "Roboto", Helvetica, sans-serif;
+    color: #e44c65;
+    font-size: 18px;
+    padding: 2% 0 4% 0;
+  }
+  @media (max-width: 1160px) {
+    .meet-team-pictures .person p {
+      font-size: 18px;
+    }
+  }
+  .meet-team-pictures .person .icon-wrapper {
+    font-size: 3em;
+    color: white;
+    padding: 0 10px;
+  }
+  .meet-team-pictures .person .icon-wrapper a {
+    color: white;
+  }
+  @media (max-width: 1160px) {
+    .meet-team-pictures .person .icon-wrapper {
+      font-size: 1.25em;
+    }
+  }
+  .fav-links {
+    color: white;
+  }

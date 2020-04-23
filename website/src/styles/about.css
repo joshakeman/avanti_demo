@@ -21,3 +21,7 @@
 .about-title {
     text-align: center;
 }
+
+.adjust-up {
+    top: 14% !important;
+}

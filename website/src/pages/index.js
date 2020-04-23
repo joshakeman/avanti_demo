@@ -15,7 +15,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="background">
-      <div className="jumbo" id="test">
+      <div className="jumbo fade-in">
         <h2>
         Step into the new
         frontier of banking
@@ -27,7 +27,6 @@ const IndexPage = () => (
       </div>
       <div className="relative-wrapper">
         <BackgroundSection />
-        {/* <img src={mountains} className="mountains-background" /> */}
       </div>
     </div>
   </Layout>

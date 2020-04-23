@@ -28,10 +28,10 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
-        <footer className="footer">
+        {/* <footer className="footer">
           <p>Contact Us: info@avantibank.com</p>
           <p>© {new Date().getFullYear()} Avanti Bank & Trust</p> 
-        </footer>
+        </footer> */}
       </div>
     </>
   )
