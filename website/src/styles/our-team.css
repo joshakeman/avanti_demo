@@ -52,10 +52,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 2% 0;
+    padding: 0;
   }
   .meet-team-pictures .person {
-    width: 32%;
+    width: 16%;
     padding: 1%;
     margin: 40px 0;
   }
@@ -76,11 +76,13 @@
   .meet-team-pictures .person img {
     width: 225px;
     border-radius: 50%;
+    border-bottom: 0;
   }
   .meet-team-pictures .person h2 {
-    font-family: "Roboto", Helvetica, sans-serif;
-    font-size: 40px;
-    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25em;
+    color: black;
+    margin-bottom: 0;
     padding: 1%;
   }
   @media (max-width: 1160px) {
@@ -89,9 +91,9 @@
     }
   }
   .meet-team-pictures .person p {
-    font-family: "Roboto", Helvetica, sans-serif;
-    color: #e44c65;
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1em;
     padding: 2% 0 4% 0;
   }
   @media (max-width: 1160px) {

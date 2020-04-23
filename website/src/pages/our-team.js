@@ -2,6 +2,11 @@ import React from 'react'
 import Layout from "../components/layout"
 import BackgroundSection from '../components/BackgroundSection'
 import '../styles/our-team.css'
+import chuck from '../images/chuck-thompson.jpg'
+import bryan from '../images/bryan-bishop.jpg'
+import britney from '../images/britney-reddy.jpg'
+import zev from '../images/zev-shimko.jpg'
+import caitlin from '../images/caitlin-long.jpg'
 
 export default function about() {
     return (
@@ -9,66 +14,40 @@ export default function about() {
             <div className="background">
                 <div className="jumbo adjust-up fade-in">
                 {/* <!-- Meet Our Team Section --> */}
-                    <h2>
-                    About Us
+                    <h2 className="no-margin">
+                    Our Team
                     </h2>
                         {/* <!-- People --> */}
                     <div class="meet-team-pictures">
                         {/* <!-- Person 1 --> */}
                         <div class="person">
-                            <img src="img/headshots/jacob.jpg"/>
-                            <h2>Jacob A Brennan</h2>
-                            <p>Team Lead</p>
-                            <a href="https://twitter.com/jacobabrennan"><span class="icon-wrapper">
-                                <i class="fab fa-twitter"></i>
-                            </span></a>
-                            <a href="https://github.com/jacobabrennan" class="fav-links"><span class="icon-wrapper"><i class="fab fa-github"></i></span></a>
-                            <a href="mailto:fake-email@fake-website.com"><span class="icon-wrapper"><i class="fas fa-envelope"></i></span></a>
+                            <img src={caitlin}/>
+                            <h2>Caitlin Long</h2>
+                            <p>Founder, CEO</p>
                         </div>
                         {/* <!-- Person 2 --> */}
                         <div class="person">
-                            <img src="img/headshots/omarsalah95.jpg"/>
-                            <h2>Omar Salah-Eddine</h2>
-                            <p>Front End Architect</p>
-                            <span class="icon-wrapper"><i class="fab fa-twitter"></i></span>
-                            <a href="https://github.com/OmarSalah95"><span class="icon-wrapper"><i class="fab fa-github"></i></span></a>
-                            <a href="mailto:fake-email@fake-website.com"><span class="icon-wrapper"><i class="fas fa-envelope"></i></span></a>
+                            <img src={bryan}/>
+                            <h2>Bryan Bishop</h2>
+                            <p>Co-founder, CTO</p>
                         </div>
                         {/* <!-- Person 3 --> */}
                         <div class="person">
-                            <img src="img/headshots/EJaona.jpg"/>
-                            <h2>Enoka Jaona</h2>
-                            <p>Back End Architect</p>
-                            <a href="https://twitter.com/EnokaJaona"><span class="icon-wrapper"><i class="fab fa-twitter"></i></span></a>
-                            <a href="https://github.com/EJaona"><span class="icon-wrapper"><i class="fab fa-github"></i></span></a>
-                            <a href="mailto:fake-email@fake-website.com"><span class="icon-wrapper"><i class="fas fa-envelope"></i></span></a>
+                            <img src={britney}/>
+                            <h2>Britney Reddy</h2>
+                            <p>Co-founder, CFO</p>
                         </div>
                         {/* <!-- Person 4 --> */}
                         <div class="person">
-                            <img src="img/headshots/edwardauron.jpg"/>
-                            <h2>Edward Barnett</h2>
-                            <p>Data Scientist</p>
-                            <a href="https://www.linkedin.com/in/edward-barnett-data-scientist/"><span class="icon-wrapper"><i class="fab fa-linkedin"></i></span></a>
-                            <a href="https://github.com/edwardauron"><span class="icon-wrapper"><i class="fab fa-github"></i></span></a>
-                            <a href="mailto:fake-email@fake-website.com"><span class="icon-wrapper"><i class="fas fa-envelope"></i></span></a>
+                            <img src={zev}/>
+                            <h2>Zev Shimko</h2>
+                            <p>Co-founder, COO</p>
                         </div>
                         {/* <!-- Person 5 --> */}
                         <div class="person">
-                            <img src="img/headshots/krsmith.jpg"/>
-                            <h2>Kailey Smith</h2>
-                            <p>Data Scientist</p>
-                            <a href="https://twitter.com/kays310"><span class="icon-wrapper"><i class="fab fa-twitter"></i></span></a>
-                            <a href="https://github.com/krsmith"><span class="icon-wrapper"><i class="fab fa-github"></i></span></a>
-                            <a href="mailto:fake-email@fake-website.com"><span class="icon-wrapper"><i class="fas fa-envelope"></i></span></a>
-                        </div>
-                        {/* <!-- Person 6 --> */}
-                        <div class="person">
-                            <img src="img/headshots/me-2.jpg"/>
-                            <h2>Josh Akeman</h2>
-                            <p>Web UI Developer</p>
-                            <a href="https://www.linkedin.com/in/joshakeman/"><span class="icon-wrapper"><i class="fab fa-linkedin"></i></span></a>
-                            <a href="https://github.com/joshakeman"><span class="icon-wrapper"><i class="fab fa-github"></i></span></a>
-                            <a href="mailto:fake-email@fake-website.com"><span class="icon-wrapper"><i class="fas fa-envelope"></i></span></a>
+                            <img src={chuck}/>
+                            <h2>Chuck Thompson</h2>
+                            <p>Co-founder, Chief Legal Officer</p>
                         </div>
                     </div>
                 </div>
