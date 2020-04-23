@@ -7,14 +7,14 @@ const Header = ({ siteTitle }) => (
   <header>
     <div className="navbar">
       <div className="header-logo-wrapper">
-        <h1 className="title">
-          <Link to="/" >
-            Avanti
-          </Link>
-        </h1>
-        <p className="title-subhead">
-          The Digital Asset Bank
-        </p>
+        <Link to="/" className="link">
+          <h1 className="title">
+              Avanti
+          </h1>
+          <p className="title-subhead">
+            The Digital Asset Bank
+          </p>
+        </Link>
       </div>
       <nav className="nav-menu">
         <Link to="/about" className="menu-item">
