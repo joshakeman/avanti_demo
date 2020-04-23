@@ -665,3 +665,7 @@ pre tt:after {
 .no-margin {
   margin: 0;
 }
+
+.buffer {
+  margin: 30px 0;
+}
