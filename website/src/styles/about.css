@@ -25,3 +25,7 @@
 .adjust-up {
     top: 14% !important;
 }
+
+.wider-container {
+    width: 80% !important;
+}

@@ -9,7 +9,7 @@ export default function about() {
         <Layout>
         <SEO title="About" keywords={['Avanti Financial Group', 'About Us']} />
             <div className="background">
-                <div className="jumbo adjust-up fade-in">
+                <div className="jumbo adjust-up fade-in wider-container">
                     <h2>
                     About Us
                     </h2>
