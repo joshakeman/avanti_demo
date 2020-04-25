@@ -55,7 +55,7 @@
     padding: 0;
   }
   .meet-team-pictures .person {
-    width: 16%;
+    width: 20%;
     padding: 1%;
     margin: 40px 0;
   }
@@ -83,7 +83,7 @@
   }
   .meet-team-pictures .person h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.25em;
+    font-size: 1em;
     color: black;
     margin-bottom: 0;
     padding: 1%;
@@ -96,7 +96,7 @@
   .meet-team-pictures .person p {
     font-family: 'Poppins', sans-serif;
     color: black;
-    font-size: 1em;
+    font-size: 0.85em;
     padding: 2% 0 4% 0;
   }
   @media (max-width: 1160px) {
