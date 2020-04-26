@@ -22,7 +22,8 @@ const IndexPage = () => (
         frontier of banking
         </h2>
         <p className="buffer">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        Serving as a compliant bridge to the US dollar payments system and a custodian of digital assets that can meet the strictest level of institutional standards. <br></br><br></br>
+        Avanti is leading finance into its digital future.
         </p>
         {/* <StyledLogo /> */}
         <div style={{width: '100%', display:'flex', justifyContent:'center'}}>
