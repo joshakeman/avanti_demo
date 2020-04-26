@@ -22,13 +22,13 @@ export default function contact() {
                         <div class="person wider">
                             <img src={email} className="no-margin smaller"/>
                             <h2>Email Us</h2>
-                            <p>info@avantibank.com</p>
+                            <p><a href="mailto:info@avantibank.com">info@avantibank.com</a></p>
                         </div>
                         {/* <!-- Person 2 --> */}
                         <div class="person wider">
                             <img src={twitter} className="no-margin smaller"/>
                             <h2>Follow Us</h2>
-                            <p>@AvantiBT</p>
+                            <p><a href="https://twitter.com/avantibt?lang=en">@AvantiBT</a></p>
                         </div>
                     </div>
                 </div>
